@@ -1,0 +1,64 @@
+html {
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: center; /* Centers the boxes horizontally */
+    gap: 20px; /* Space between boxes */
+    padding: 20px;
+}
+
+.nav-box {
+    background-color: #f0f0f0; /* Light background color */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    text-align: center; /* Center the text */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.nav-box a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-box:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+}
+
+  
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 10px;
+    display: inline-block;
+  }
+  
+  #budu {
+    background: grey;
+  }
+  
+  #bili {
+    background: white;
+  }
+  #nili {
+    background: blue;
+  }
+  #haladi {
+    background: yellow;
+  }
+  #purple {
+    background: purple;
+  }
+  
